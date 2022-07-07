@@ -8,7 +8,7 @@ on:
 
   workflow_dispatch:    
   schedule:
-  - cron: "*/30 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+  - cron: "*/60 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 jobs:
   auto_commit:
